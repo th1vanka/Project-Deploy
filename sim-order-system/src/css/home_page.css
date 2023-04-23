@@ -1,0 +1,73 @@
+.clearfix {
+  overflow: hidden;
+}
+.home-page-main-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+.home-service-component-container{
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+.home-operator-plan-component-container{
+  width: 100%;
+  margin-bottom: 40px;
+  /* background-color: rgb(236, 236, 236); */
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+/* for 24 inch */
+@media screen and (max-width: 1920px) {
+}
+
+/* for 22 inch */
+@media screen and (max-width: 1680px) {
+  /* for 20 inch */
+  @media screen and (min-height: 1200px) {
+  }
+}
+
+/* for 15 inch */
+@media screen and (max-width: 1366px) {
+}
+
+/* for 13 inch */
+@media screen and (max-width: 1280px) {
+  /* for 19 inch */
+  @media screen and (min-height: 1024px) {
+  }
+}
+
+/* for 17 inch */
+@media screen and (max-width: 970px) {
+}
+
+/* for all tab inch */
+@media screen and (max-width: 884px) {
+  .home-page-main-container {
+    padding: 10px;
+
+  }
+  .home-service-component-container{
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+}
+
+/* for all mobile inch */
+@media screen and (max-width: 750px) {
+  .home-page-main-container {
+    padding: 10px;
+
+  }
+  .home-service-component-container{
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+}

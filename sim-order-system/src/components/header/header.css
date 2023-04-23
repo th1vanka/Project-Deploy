@@ -1,0 +1,133 @@
+.header-container {
+  width: 100%;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5713f;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.header-left {
+  width: 264px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left-text1 {
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+}
+.header-left-text2 {
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.header-right {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right-text1 {
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+}
+.header-right-text1:hover {
+  text-decoration: underline;
+}
+.header-right-text2 {
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-right-text2-no {
+  font-weight: 700;
+  color: #ffffff;
+}
+.header-right-text2-no:hover {
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.text-icon-wrapper {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* for 24 inch */
+@media screen and (max-width: 1920px) {
+}
+
+/* for 22 inch */
+@media screen and (max-width: 1680px) {
+  /* for 20 inch */
+  @media screen and (min-height: 1200px) {
+  }
+}
+
+/* for 15 inch */
+@media screen and (max-width: 1366px) {
+}
+
+/* for 13 inch */
+@media screen and (max-width: 1280px) {
+  /* for 19 inch */
+  @media screen and (min-height: 1024px) {
+  }
+}
+
+/* for 17 inch */
+@media screen and (max-width: 970px) {
+}
+
+/* for all tab inch */
+@media screen and (max-width: 884px) {
+  
+  .header-left {
+    display: none;
+  }
+  .header-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-right-text2-time {
+    display: none;
+  }
+}
+
+/* for all mobile inch */
+@media screen and (max-width: 750px) {
+  .header-container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+  .header-left {
+    display: none;
+  }
+  .header-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-right-text2-time {
+    display: none;
+  }
+}

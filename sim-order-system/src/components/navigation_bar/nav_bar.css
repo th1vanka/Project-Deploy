@@ -1,0 +1,134 @@
+.nav-bar-container {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 110px;
+  padding-right: 110px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  
+}
+.nav-logo-wrapper {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-label {
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6e6e6e;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav-label:hover {
+  color: #f5713f;
+}
+.nav-actions-wrapper {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.mob-nav-bar-main-container {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+   
+}
+.mob-nav-bar-container {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right:20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+.mob-nav-logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mob-nav-actions-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.mob-nav-bar-location-container{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+   color: #6e6e6e;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mob-nav-bar-location-text{
+   text-decoration: underline;
+   color: #f5713f;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* for 24 inch */
+@media screen and (max-width: 1920px) {
+}
+
+/* for 22 inch */
+@media screen and (max-width: 1680px) {
+  /* for 20 inch */
+  @media screen and (min-height: 1200px) {
+  }
+}
+
+/* for 15 inch */
+@media screen and (max-width: 1366px) {
+}
+
+/* for 13 inch */
+@media screen and (max-width: 1280px) {
+  /* for 19 inch */
+  @media screen and (min-height: 1024px) {
+  }
+}
+
+/* for 17 inch */
+@media screen and (max-width: 970px) {
+}
+
+/* for all tab inch */
+@media screen and (max-width: 884px) {
+   .nav-bar-container {
+    display: none;
+  }
+  .mob-nav-bar-main-container{
+    display:block;
+    padding-left: 10px;
+  padding-right: 10px;
+  }
+}
+
+/* for all mobile inch */
+@media screen and (max-width: 750px) {
+  .nav-bar-container {
+    display: none;
+  }
+  .mob-nav-bar-main-container{
+    display:block;
+     padding-left: 0px;
+  padding-right:0px;
+  }
+}

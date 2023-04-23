@@ -1,0 +1,119 @@
+.service-card-container {
+  min-width: 120px;
+  width: fit-content;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+}
+
+.service-card-container:hover {
+  border: 1px solid #f5713f;
+}
+.service-card-main-icon {
+  width: 35px;
+}
+.card-sub-icon{
+    width: 11px;
+}
+
+.title-wrapper {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(118, 118, 118);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.icon-wrapper {
+  min-width: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* for 24 inch */
+@media screen and (max-width: 1920px) {
+}
+
+/* for 22 inch */
+@media screen and (max-width: 1680px) {
+  /* for 20 inch */
+  @media screen and (min-height: 1200px) {
+  }
+}
+
+/* for 15 inch */
+@media screen and (max-width: 1366px) {
+}
+
+/* for 13 inch */
+@media screen and (max-width: 1280px) {
+  /* for 19 inch */
+  @media screen and (min-height: 1024px) {
+  }
+}
+
+/* for 17 inch */
+@media screen and (max-width: 970px) {
+}
+
+/* for all tab inch */
+@media screen and (max-width: 884px) {
+  .service-card-container {
+    min-width: 225px;
+    height: 100px;
+  }
+  .service-card-main-icon {
+    width: 30px;
+  }
+  .title-wrapper {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(118, 118, 118);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .icon-wrapper {
+    min-width: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+    
+}
+
+/* for all mobile inch */
+@media screen and (max-width: 750px) {
+  .service-card-container {
+     height: 100px;
+    min-width: 90%;
+    width: fit-content;
+  }
+  .service-card-main-icon {
+    width: 30px;
+  }
+  .card-sub-icon{
+    width: 10px;
+}
+  .title-wrapper {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(118, 118, 118);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .icon-wrapper {
+    min-width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
