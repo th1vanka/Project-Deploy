@@ -1,0 +1,119 @@
+.plan-main-container {
+  min-width: 400px;
+  width: fit-content;
+  height: 190px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.plan-section-01 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(84, 84, 84);
+  font-weight: bold;
+}
+.plan-sub-section-01 {
+  width: 150px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan-sub-section-icon {
+  width: 30px;
+}
+.plan-section-02 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(118, 118, 118);
+  font-weight: 500;
+  padding-left: 38px;
+}
+.plan-section-03 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(118, 118, 118);
+  font-weight: 500;
+  padding-left: 8px;
+  margin-top: 18px;
+}
+.plan-sub-section-02 {
+  width: 100px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.plan-section-04 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(84, 84, 84);
+  font-weight: 500;
+  margin-top: 8px;
+  gap: 10px;
+}
+.benefits-icon {
+  width: 16px;
+}
+
+/* for 24 inch */
+@media screen and (max-width: 1920px) {
+}
+
+/* for 22 inch */
+@media screen and (max-width: 1680px) {
+  /* for 20 inch */
+  @media screen and (min-height: 1200px) {
+  }
+}
+
+/* for 15 inch */
+@media screen and (max-width: 1366px) {
+}
+
+/* for 13 inch */
+@media screen and (max-width: 1280px) {
+  /* for 19 inch */
+  @media screen and (min-height: 1024px) {
+  }
+}
+
+/* for 17 inch */
+@media screen and (max-width: 970px) {
+}
+
+/* for all tab inch */
+@media screen and (max-width: 884px) {
+  .plan-main-container {
+    min-width: 100%;
+  }
+}
+
+/* for all mobile inch */
+@media screen and (max-width: 750px) {
+  .plan-main-container {
+    min-width: 100%;
+  }
+}

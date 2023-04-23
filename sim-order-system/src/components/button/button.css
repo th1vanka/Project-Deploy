@@ -1,0 +1,28 @@
+.outlined {
+  padding: 8px 14px;
+  font-size: 11px;
+  font-weight: 550;
+  border: 1.4px solid #f5713f;
+  border-radius: 5px;
+  background-color: white;
+  color: #f5713f;
+  cursor: pointer;
+  outline: none;
+}
+.outlined:hover {
+  background-color:#f5703f0f ;
+}
+.filled {
+  padding: 8px 19px;
+  font-size: 11px;
+  font-weight: 550;
+  border: 1.4px solid #f5713f;
+  border-radius: 5px;
+  background-color: #f5713f;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.filled:hover {
+  text-decoration: underline;
+}

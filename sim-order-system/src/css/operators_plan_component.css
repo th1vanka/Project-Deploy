@@ -1,0 +1,210 @@
+.operators-group-main-container {
+  width: 40%;
+  margin: auto;
+  margin-top: -10px;
+}
+.operators-group-title-wrapper {
+  margin-bottom: 20px;
+  color: rgb(93, 93, 93);
+}
+.operators-group-title {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 550;
+  margin-left: 10px;
+}
+.operators-group-title-special {
+  color: #f5713f;
+}
+.operators-group-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Plans details css*/
+
+.plans-group-main-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.plans-group-title-wrapper {
+  margin-bottom: 20px;
+  color: rgb(93, 93, 93);
+}
+.plans-group-title {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+.plans-group-title-special {
+    color: #f5713f;
+  }
+.plans-group-sub-title-wrapper {
+  width: 100%;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+ .plans-group-sub-title-special{
+    color: #f5713f;
+  }
+.plans-group-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* for 24 inch */
+@media screen and (max-width: 1920px) {
+}
+
+/* for 22 inch */
+@media screen and (max-width: 1680px) {
+  /* for 20 inch */
+  @media screen and (min-height: 1200px) {
+  }
+}
+
+/* for 15 inch */
+@media screen and (max-width: 1366px) {
+}
+
+/* for 13 inch */
+@media screen and (max-width: 1280px) {
+  /* for 19 inch */
+  @media screen and (min-height: 1024px) {
+  }
+}
+
+/* for 17 inch */
+@media screen and (max-width: 970px) {
+}
+
+/* for all tab inch */
+@media screen and (max-width: 884px) {
+  .operators-group-main-container {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .operators-group-title-wrapper {
+    margin-bottom: 20px;
+    color: rgb(93, 93, 93);
+    text-align: center;
+  }
+  .operators-group-title {
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 550;
+    margin-left: 10px;
+  }
+  .operators-group-title-special {
+    color: #f5713f;
+  }
+  .operators-group-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* Plans details css*/
+
+  .plans-group-main-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .plans-group-title-wrapper {
+    color: rgb(93, 93, 93);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+ 
+  .plans-group-sub-title-01 {
+    display: none;
+  }
+  .plans-group-sub-title-02 {
+    width: 100%;
+    text-align: center;
+  }
+  .plans-group-wrapper {
+    width: 100%;
+    padding-left: 50px;
+    padding-right:50px ;
+  }
+}
+
+/* for all mobile inch */
+@media screen and (max-width: 750px) {
+  .operators-group-main-container {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .operators-group-title-wrapper {
+    margin-bottom: 20px;
+    color: rgb(93, 93, 93);
+    text-align: center;
+  }
+  .operators-group-title {
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 550;
+    margin-left: 10px;
+  }
+ 
+  .operators-group-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* Plans details css*/
+
+  .plans-group-main-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .plans-group-title-wrapper {
+    margin-bottom: 20px;
+    color: rgb(93, 93, 93);
+    text-align: center;
+  }
+  .plans-group-sub-title-01 {
+    display: none;
+  }
+  .plans-group-sub-title-02 {
+    width: 100%;
+    text-align: center;
+  }
+  .plans-group-wrapper {
+    width: 100%;
+    padding-left: 5px;
+    padding-right:5px ;
+  }
+}
