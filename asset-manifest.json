@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34b47967.css",
+    "main.js": "/static/js/main.df583923.js",
+    "static/media/banner02.webp": "/static/media/banner02.593322f7ac3ceac26a82.webp",
+    "static/media/banner04.webp": "/static/media/banner04.fd79f79c4fd585c2985d.webp",
+    "static/media/banner03.webp": "/static/media/banner03.7bdfc214ee73bfd7d8be.webp",
+    "static/media/banner01.webp": "/static/media/banner01.2e12c3dd7e90e28a89ad.webp",
+    "static/media/unnamed.webp": "/static/media/unnamed.9d413468691e24416485.webp",
+    "static/media/benifit01.webp": "/static/media/benifit01.7a076a5397d7a98ba51b.webp",
+    "static/media/benifit02.webp": "/static/media/benifit02.56230d5a94a47f035667.webp",
+    "static/media/jio.webp": "/static/media/jio.481580425b3f9c9e314e.webp",
+    "static/media/benifit03.webp": "/static/media/benifit03.8eebf4183b93dcd038b2.webp",
+    "index.html": "/index.html",
+    "main.34b47967.css.map": "/static/css/main.34b47967.css.map",
+    "main.df583923.js.map": "/static/js/main.df583923.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34b47967.css",
+    "static/js/main.df583923.js"
+  ]
+}
